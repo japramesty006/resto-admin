@@ -1,0 +1,106 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding : 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: orange;
+    padding: 1%;
+    color: #F2F3F3;
+    text-decoration: none;
+}
+.btn-primary:hover{
+    background-color: red;
+}
+.btn-secondary{
+    background-color: rgb(44, 143, 44);
+    padding: 1%;
+    color: #F2F3F3;
+    text-decoration: none;
+}
+.btn-secondary:hover{
+    background-color:rgb(55, 209, 55);
+}
+.btn-danger{
+    background-color: rgb(163, 51, 51);
+    padding: 1%;
+    color: #F2F3F3;
+    text-decoration: none;
+}
+.btn-danger:hover{
+    background-color:red;
+}
+/* menu section */
+.menu{
+    border-bottom: 1px solid black;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(163, 51, 51);
+}
+.menu ul li a:hover{
+    color: orange;
+}
+/* main content */
+.main-content{
+    background-color: #F2F3F3;
+    padding: 3% 0;
+}
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/* footer */
+.footer{
+    background-color: rgb(163, 51, 51);
+    color: #F2F3F3;
+}
+/* login */
+.login{
+    border: 1px solid black;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    color: rgb(163, 51, 51)
+}
